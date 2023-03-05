@@ -2,7 +2,15 @@
   text-align: center;
 }
 
-.App-logo {
+input[type=checkbox]:checked + label.strikethrough{
+  text-decoration: line-through;
+}
+
+/* .line {
+  text-decoration: line-through
+} */
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +43,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
